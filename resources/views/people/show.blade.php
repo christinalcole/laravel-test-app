@@ -1,7 +1,7 @@
 
 
 
-<?php $colors = array('green','orange','pink');
+<?php $colors = array('green','orange','pink', 'gray', 'black');
   $i = 0; ?>
 
 
@@ -46,6 +46,56 @@
 
         <div style="background-color: {{$colors[($i%count($colors))]}};"><a href="#extras" title="" data-toggle="tab">
           <div class="inner"><span class="linktext active"><span class="linklabel">Extras</span></span></div>
+          <!-- end inner --></a></div>
+          <? ++$i ?>
+        <!-- end navbox -->
+
+      @endif
+
+      @if(!empty($person->Link5))
+
+        <div style="background-color: {{$colors[($i%count($colors))]}};"><a href="#extras" title="" data-toggle="tab">
+          <div class="inner"><span class="linktext active"><span class="linklabel">Link5</span></span></div>
+          <!-- end inner --></a></div>
+          <? ++$i ?>
+        <!-- end navbox -->
+
+      @endif
+
+      @if(!empty($person->Link6))
+
+        <div style="background-color: {{$colors[($i%count($colors))]}};"><a href="#extras" title="" data-toggle="tab">
+          <div class="inner"><span class="linktext active"><span class="linklabel">Link6</span></span></div>
+          <!-- end inner --></a></div>
+          <? ++$i ?>
+        <!-- end navbox -->
+
+      @endif
+
+      @if(!empty($person->Link7))
+
+        <div style="background-color: {{$colors[($i%count($colors))]}};"><a href="#extras" title="" data-toggle="tab">
+          <div class="inner"><span class="linktext active"><span class="linklabel">Link7</span></span></div>
+          <!-- end inner --></a></div>
+          <? ++$i ?>
+        <!-- end navbox -->
+
+      @endif
+
+      @if(!empty($person->Link8))
+
+        <div style="background-color: {{$colors[($i%count($colors))]}};"><a href="#extras" title="" data-toggle="tab">
+          <div class="inner"><span class="linktext active"><span class="linklabel">Link8</span></span></div>
+          <!-- end inner --></a></div>
+          <? ++$i ?>
+        <!-- end navbox -->
+
+      @endif
+
+      @if(!empty($person->Link9))
+
+        <div style="background-color: {{$colors[($i%count($colors))]}};"><a href="#extras" title="" data-toggle="tab">
+          <div class="inner"><span class="linktext active"><span class="linklabel">Link9</span></span></div>
           <!-- end inner --></a></div>
           <? ++$i ?>
         <!-- end navbox -->
