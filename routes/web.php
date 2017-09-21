@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/people', 'PeopleController@index');
+Route::get('/people/{person}', 'PeopleController@show');

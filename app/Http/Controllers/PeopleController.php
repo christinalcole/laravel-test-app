@@ -11,4 +11,10 @@ class PeopleController extends Controller
 
       return view('people.index', compact('people'));
     }
+
+    public function show($id){
+      $person = Person::find($id);
+
+      return view('people.show', compact('person'));
+    }
 }
